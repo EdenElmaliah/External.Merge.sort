@@ -1,0 +1,20 @@
+By Eden Elmaliah and Shahar Jacob
+
+==================
+=  Description:  =
+==================
+Here we present a program that implements an external merge-sort when the
+size of the buffer on which sorting is based is limited to 50 MB.
+
+For using, make sure "output.txt" exists and empty.
+For regular sorting, use these parameters:
+"A inputFile output.txt columnToSort tempPath"
+For example: "A textFile output.txt 2 /tmp"
+
+For selecting (sub-string), use this parameters:
+"B (or C)  inputFile output.txt columnToSort tempPath columnToSelect subStringToSelect"
+For example: "B textFile output.txt 2 /tmp 1 ab"
+
+
+
+
